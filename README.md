@@ -1,5 +1,3 @@
-ai generate. rough sketch for now
-
 1. Mouse click cursor placement
 2. Text selection via mouse (click and drag)
 3. Text selection via keyboard (Shift + Arrows)
