@@ -1,0 +1,52 @@
+ai generate. rough sketch for now
+
+1. Mouse click cursor placement
+2. Text selection via mouse (click and drag)
+3. Text selection via keyboard (Shift + Arrows)
+4. Deleting selected text (Backspace or Delete)
+5. Overwriting selected text by typing
+6. Up arrow navigation (calculating visual wrapped lines vs logical paragraphs)
+7. Down arrow navigation (calculating visual wrapped lines vs logical paragraphs)
+8. Maintaining horizontal pixel position when moving Up/Down across lines of different lengths
+9. Forward Delete (Delete key)
+10. Delete previous word (Ctrl + Backspace)
+11. Delete next word (Ctrl + Delete)
+12. Delete to start of line (Ctrl + Shift + Backspace or Cmd + Backspace)
+13. Delete to end of line (Ctrl + Shift + Delete)
+14. Word jumping left/right (Ctrl + Left / Right)
+15. Paragraph jumping up/down (Ctrl + Up / Down)
+16. Select word left/right (Ctrl + Shift + Left / Right)
+17. Select paragraph up/down (Ctrl + Shift + Up / Down)
+18. Home key (move to start of line)
+19. End key (move to end of line)
+20. Select to start of line (Shift + Home)
+21. Select to end of line (Shift + End)
+22. Move to start of document (Ctrl + Home)
+23. Move to end of document (Ctrl + End)
+24. Select to start of document (Ctrl + Shift + Home)
+25. Select to end of document (Ctrl + Shift + End)
+26. Page Up / Page Down navigation
+27. Select page up / down (Shift + Page Up / Page Down)
+28. Select All (Ctrl + A)
+29. Cut (Ctrl + X)
+30. Paste as plain text (Ctrl + Shift + V)
+31. Linux Primary Selection (Middle mouse button paste)
+32. Undo (Ctrl + Z)
+33. Redo (Ctrl + Y or Ctrl + Shift + Z)
+34. Double-click to select word
+35. Triple-click to select paragraph
+36. Shift + Click (extend selection from current cursor to mouse pointer)
+37. Double-click and drag (select by whole words continuously)
+38. Triple-click and drag (select by whole paragraphs continuously)
+39. Auto-scrolling when dragging selection off-screen (mouse moves above/below window)
+40. Auto-scrolling to keep cursor visible while typing
+41. Auto-scrolling to keep cursor visible during keyboard navigation
+42. Proper Unicode grapheme cluster deletion (deleting a composed emoji in one Backspace, not 4 bytes)
+43. Proper Unicode grapheme cluster navigation (arrow keys stepping over multi-byte characters correctly)
+44. IME (Input Method Editor) support for composing accents or Asian languages (e.g., Pinyin, Hiragana)
+45. Bi-directional text navigation (Right arrow correctly moving visually left in Arabic/Hebrew)
+46. Tab key (inserting tab character vs spaces)
+47. Shift + Tab (unindenting)
+48. Merging paragraphs when Backspace/Delete removes the newline between them
+49. Splitting selections (pressing Enter while text is highlighted deletes text and breaks paragraph)
+50. Cursor blink logic (resetting the blink timer on every keystroke so it stays solid while typing)
